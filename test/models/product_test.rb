@@ -10,6 +10,7 @@ class ProductTest < ActiveSupport::TestCase
 		assert product.errors[:price].any?
 		assert product.errors[:image_url].any?
 	end
+
 	test "product price must be positive" do
 		product = Product.new(title:       "My Book Title",
 			description: "yyy",
@@ -68,4 +69,5 @@ class ProductTest < ActiveSupport::TestCase
 		assert_equal [I18n.translate('activerecord.errors.messages.taken')],
 		product.errors[:title]
 	end
+
 end
