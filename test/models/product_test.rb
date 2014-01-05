@@ -70,4 +70,15 @@ class ProductTest < ActiveSupport::TestCase
 		product.errors[:title]
 	end
 
+	test "product title length" do
+		product = Product.new(
+			title: "Too Short",
+			description: "yyy", 
+			price:       1, 
+			image_url:   "fred.gif")
+		assert product.invalid?, "Title shorter than 10 characters accepted"
+		product.title = "LongEnough"
+		assert product.valid?, "Title greater than 10 characters not accepted"
+	end
+
 end
