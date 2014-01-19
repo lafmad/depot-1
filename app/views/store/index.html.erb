@@ -3,7 +3,10 @@
 <% end %>
 
 <h1>Your Pragmatic Catalog</h1>
-
+<% text = 'to the store index since last item added' %>
+<% if session[:counter] > 5 %>
+<span><%= pluralize(session[:counter], "access #{text}", "accesses #{text}") %></span>
+<% end %>
 <% @products.each do |product| %>
   <div class="entry">
     <%= image_tag(product.image_url) %>
