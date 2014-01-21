@@ -9,7 +9,7 @@ class Product < ActiveRecord::Base
   validates :price, numericality: {greater_than_or_equals_to: 0.01, message: "The price is below #{MIN_PRICE}"}
   validates :title, uniqueness: true
   validates :image_url, allow_blank: true, format: {
-  	with: %r{\.(gif|jpg|png)}, 
+  	with: /.+\.(gif|jpg|png)\Z/i, 
   	message: 'must be a URL for GIF, JPG or PNG image.'}
 
   private
