@@ -18,10 +18,13 @@
   <div id="columns">
     <div id="side"> 
       <% time = Time.now %>
-      <p>
+      <p id="datetime">
         <%= "Date: #{Date.today}" %> <br> 
         <%= "Time: #{time.hour}-#{time.min}-#{time.sec}" %>
       </p>
+      <div id="cart">
+        <%= render @cart %>
+      </div>
       <ul>
         <li><a href="http://www....">Home</a></li>
         <li><a href="http://www..../faq">Questions</a></li>
