@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+  before_action :current_cart, only: [:index, :show, :new, :edit] #inherited from ApplicationController
 
   # GET /products
   # GET /products.json
