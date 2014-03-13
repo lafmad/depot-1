@@ -1,0 +1,78 @@
+[33mcommit 2902b05edfc7df268c8e65fb3e2456099cfbfac1[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Mon Mar 10 15:07:52 2014 -0300
+
+    Revert
+
+[33mcommit da5ccaa121dec61c15052705eadffc7d7c4b4359[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Mon Mar 10 15:07:08 2014 -0300
+
+    Revert
+
+[33mcommit 5f79a9613465cc9dc7a68f3516cdbff47dbc5a89[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Tue Mar 4 23:57:58 2014 -0300
+
+    Removed redundant .erb files
+
+[33mcommit 61e0966a028869086d81f0792d44297824c3ae29[m
+Merge: 039d000 e70d2e0
+Author: donboli <wolli.becker@gmail.com>
+Date:   Tue Mar 4 23:48:52 2014 -0300
+
+    Created partials for cart and line_item
+
+[33mcommit 039d0002cf0f96138d4409302eeaa09cbebf9d7d[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Tue Mar 4 23:43:10 2014 -0300
+
+    Created partials for cart and line_item
+
+[33mcommit e70d2e06a57a78c7db7454bae1f08624408ba1fa[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Tue Jan 21 00:20:11 2014 -0300
+
+    Cart in sidebar
+
+[33mcommit 6fe8bc3f0ac9734e1f4233833e5a083af4c7ebdd[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Sun Jan 19 17:17:44 2014 -0300
+
+    Empty Cart
+
+[33mcommit 46188241859c56e8f7d76cfa945058cc24d7027c[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Sat Jan 11 15:41:01 2014 -0300
+
+    Line Items
+
+[33mcommit f5162b746ad993005ae8ccadd7f09e7f5794e72a[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Wed Jan 8 17:48:15 2014 -0300
+
+    Store created
+
+[33mcommit 6bc0bb9210770b61804b3dd111b7adb442c54dfd[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Sun Jan 5 13:45:26 2014 -0300
+
+    Validation!
+
+[33mcommit e6bdd701715963e479d73092f36a602946b087a0[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Sun Jan 5 13:27:40 2014 -0300
+
+    Validation!
+
+[33mcommit a37af75fcd36071761d580e5a967312d4366a8cf[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Sun Jan 5 13:26:23 2014 -0300
+
+    Validation!
+
+[33mcommit 47fc723699d535222fb4d188d109089d231372fc[m
+Author: donboli <wolli.becker@gmail.com>
+Date:   Mon Dec 30 22:24:32 2013 -0300
+
+    Depot Scaffold

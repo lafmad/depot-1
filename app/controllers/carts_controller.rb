@@ -1,5 +1,6 @@
 class CartsController < ApplicationController
   before_action :set_cart, only: [:edit, :update, :destroy]
+  before_action :current_cart, only: [:index] #inherited from ApplicationController
 
   # GET /carts
   # GET /carts.json
@@ -65,7 +66,6 @@ class CartsController < ApplicationController
   # DELETE /carts/1
   # DELETE /carts/1.json
   def destroy
-    @cart = current_cart
     @cart.destroy
     session[:cart_id] = nil
 
