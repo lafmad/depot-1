@@ -68,9 +68,9 @@ class CartsController < ApplicationController
   def destroy
     @cart.destroy
     session[:cart_id] = nil
-
     respond_to do |format|
       format.html { redirect_to store_url }
+      format.js { @cart = current_cart }
       format.json { head :no_content }
     end
   end
